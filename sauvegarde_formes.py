@@ -1,13 +1,60 @@
 import cv2
+from PIL import Image
+import shutil
 
 
 
-def cherche_roue(image):
-    im = cv2.imread(image, 0)
-    for x in range(im.shape[0]):
-        for y in range(im.shape[1]):
-            pass
+liste = []
+liste1 = []
+im = cv2.imread('b.jpg', 0)
+for x in range(im.shape[0]):
+    liste = []
+    for y in range(im.shape[1]):
+        
+        if im[x,y] < 125:
+            im[x,y] = 255
+        else:
+            im[x,y] = 0
+            
+        liste.append(im[x,y])
 
-    cv2.imshow('image.jpg', im)
+    liste1.append(liste)
 
-cherche_roue('roue_nb.png')
+cv2.imshow("oinoi", im)
+
+
+print(liste1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
