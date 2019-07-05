@@ -1,3 +1,3 @@
 # mamatch
 
-sqrt(x) + sqrt(y) - x -y = -sqrt(1/100) la j'a isu que sté foutu
+j'ai toute la vie pour recommencer je veux faire comme eux !
