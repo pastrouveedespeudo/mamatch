@@ -1,3 +1,3 @@
 # mamatch
 
-comme la carte du vent frer comme la carte du vent !
+sqrt(x) + sqrt(y) - x -y = -sqrt(1/100) la j'a isu que sté foutu
